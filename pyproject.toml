@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-notion-bridge"
+version = "0.1.0"
+description = "Lightweight Model Context Protocol (MCP) bridge and hybrid sync engine connecting Notion workspaces with AI agents and vector RAG pipelines."
+readme = "README.md"
+authors = [
+    { name = "Shaheer Ul Hassan", email = "contact@shaheerulhassan.com" }
+]
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "notion",
+    "rag",
+    "hybrid-search",
+    "reciprocal-rank-fusion",
+    "vector-database",
+    "langgraph",
+    "ai-agents",
+    "chromadb"
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "httpx>=0.24.0"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.20.0",
+    "build",
+    "twine"
+]
+rag = [
+    "chromadb>=0.4.0",
+    "rank-bm25>=0.2.2"
+]
+
+[project.scripts]
+mcp-notion-bridge = "mcp_notion_bridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mcp_notion_bridge*"]
+exclude = ["tests*", "assets*"]
+
+[project.urls]
+"Homepage" = "https://shaheerulhassan.com/"
+"Documentation" = "https://shaheerulhassan.com/blog/solving-stale-embeddings-hybrid-rag-notion-mcp"
+"Source" = "https://github.com/samjanjua6/mcp-notion-bridge"
+"Bug Tracker" = "https://github.com/samjanjua6/mcp-notion-bridge/issues"
+"Author Portfolio" = "https://shaheerulhassan.com/"
