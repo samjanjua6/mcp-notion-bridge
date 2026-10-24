@@ -2,10 +2,15 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/mcp-notion-bridge.svg?color=blue)](https://pypi.org/project/mcp-notion-bridge/)
 [![Python versions](https://img.shields.io/pypi/pyversions/mcp-notion-bridge.svg)](https://pypi.org/project/mcp-notion-bridge/)
+[![Downloads](https://img.shields.io/pypi/dm/mcp-notion-bridge.svg?color=emerald)](https://pypistats.org/packages/mcp-notion-bridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/pypi/dm/mcp-notion-bridge.svg)](https://pypistats.org/packages/mcp-notion-bridge)
+[![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
+[![GitHub stars](https://img.shields.io/github/stars/samjanjua6/mcp-notion-bridge?style=social)](https://github.com/samjanjua6/mcp-notion-bridge)
 
 > **Lightweight Model Context Protocol (MCP) bridge and hybrid sync engine connecting Notion workspaces with AI agents and vector RAG pipelines.**
+
+> [!TIP]
+> **Support Open-Source**: If you find `mcp-notion-bridge` useful in your agent workflows, please consider giving it a ⭐ on GitHub — it helps the project grow!
 
 Stop serving obsolete data from static vector indices. `mcp-notion-bridge` implements an event-driven retrieval layer adhering to Anthropic's open **Model Context Protocol (MCP)**. It dynamically intercepts volatile documentation updates from live Notion workspaces and fuses them with local vector stores (ChromaDB, Pgvector) and sparse BM25 search using **Reciprocal Rank Fusion (RRF)**.
 
