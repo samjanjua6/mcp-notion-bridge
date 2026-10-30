@@ -1,0 +1,23 @@
+# Smithery configuration file for mcp-notion-bridge
+startCommand:
+  type: stdio
+  commandFunction: |-
+    (config) => ({
+      command: 'python',
+      args: ['-m', 'mcp_notion_bridge.cli', 'retrieve', 'notion search'],
+      env: {
+        NOTION_API_KEY: config.notionApiKey || ''
+      }
+    })
+
+configSchema:
+  type: object
+  properties:
+    notionApiKey:
+      type: string
+      title: Notion API Key
+      description: Your Notion internal integration secret token (optional for local mock retrieval)
+  required: []
+
+exampleConfig:
+  notionApiKey: "secret_sample_notion_key_here"

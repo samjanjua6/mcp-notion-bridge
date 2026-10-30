@@ -135,6 +135,37 @@ Where:
 
 ---
 
+## 🤖 Claude Desktop & Cursor Integration
+
+Connect `mcp-notion-bridge` directly to **Claude Desktop**, **Cursor**, or any MCP-compatible agent host.
+
+### Claude Desktop (`claude_desktop_config.json`)
+Add this entry to your configuration file:
+* **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+* **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "notion-bridge": {
+      "command": "python",
+      "args": ["-m", "mcp_notion_bridge.cli", "retrieve", "workspace search"],
+      "env": {
+        "NOTION_API_KEY": "your_notion_api_token"
+      }
+    }
+  }
+}
+```
+
+### Smithery 1-Click Install
+Install seamlessly via [Smithery.ai](https://smithery.ai):
+```bash
+npx -y @smithery/cli install mcp-notion-bridge --client claude
+```
+
+---
+
 ## 🖥️ Command-Line Interface (CLI)
 
 `mcp-notion-bridge` includes a built-in terminal CLI:
