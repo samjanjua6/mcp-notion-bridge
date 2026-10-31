@@ -6,8 +6,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
 [![GitHub stars](https://img.shields.io/github/stars/samjanjua6/mcp-notion-bridge?style=social)](https://github.com/samjanjua6/mcp-notion-bridge)
+[![Agensi Skill](https://img.shields.io/badge/Agensi.io-Agent%20Skill%20($19)-8F63DD)](https://www.agensi.io/skills/notion-agent-bridge-live-mcp-rag-sync)
 
 > **Lightweight Model Context Protocol (MCP) bridge and hybrid sync engine connecting Notion workspaces with AI agents and vector RAG pipelines.**
+
+> [!NOTE]
+> **Claude Code & Cursor Users**: Get the turnkey 1-click Agent Skill on [**Agensi.io**](https://www.agensi.io/skills/notion-agent-bridge-live-mcp-rag-sync).
 
 > [!TIP]
 > **Support Open-Source**: If you find `mcp-notion-bridge` useful in your agent workflows, please consider giving it a ⭐ on GitHub — it helps the project grow!

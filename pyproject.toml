@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-notion-bridge"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight Model Context Protocol (MCP) bridge and hybrid sync engine connecting Notion workspaces with AI agents and vector RAG pipelines."
 readme = "README.md"
 authors = [
@@ -64,6 +64,7 @@ exclude = ["tests*", "assets*"]
 
 [project.urls]
 "Homepage" = "https://shaheerulhassan.com/"
+"Agensi Skill" = "https://www.agensi.io/skills/notion-agent-bridge-live-mcp-rag-sync"
 "Documentation" = "https://shaheerulhassan.com/blog/solving-stale-embeddings-hybrid-rag-notion-mcp"
 "Source" = "https://github.com/samjanjua6/mcp-notion-bridge"
 "Bug Tracker" = "https://github.com/samjanjua6/mcp-notion-bridge/issues"

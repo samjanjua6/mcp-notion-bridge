@@ -16,7 +16,7 @@ from .client import NotionMCPClient
 from .fusion import reciprocal_rank_fusion
 from .retriever import HybridMCPRetriever
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Shaheer Ul Hassan"
 __license__ = "MIT"
 __all__ = [

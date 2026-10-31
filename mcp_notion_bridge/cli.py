@@ -8,7 +8,7 @@ from .retriever import HybridMCPRetriever
 from .fusion import reciprocal_rank_fusion
 from .models import DocumentChunk
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def main():
