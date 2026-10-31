@@ -32,3 +32,6 @@ venv.bak/
 htmlcov/
 .mypy_cache/
 .DS_Store
+
+*.zip
+assets/logo_512.png
