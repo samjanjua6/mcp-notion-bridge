@@ -1,8 +1,9 @@
 # mcp-notion-bridge
 
-[![PyPI version](https://img.shields.io/pypi/v/mcp-notion-bridge.svg?color=blue)](https://pypi.org/project/mcp-notion-bridge/)
-[![Python versions](https://img.shields.io/pypi/pyversions/mcp-notion-bridge.svg)](https://pypi.org/project/mcp-notion-bridge/)
-[![Downloads](https://img.shields.io/pypi/dm/mcp-notion-bridge.svg?color=emerald)](https://pypistats.org/packages/mcp-notion-bridge)
+[![PyPI version](https://img.shields.io/pypi/v/mcp-notion-bridge.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/mcp-notion-bridge/)
+[![Python versions](https://img.shields.io/pypi/pyversions/mcp-notion-bridge.svg?logo=python&logoColor=white)](https://pypi.org/project/mcp-notion-bridge/)
+[![Downloads](https://img.shields.io/pypi/dm/mcp-notion-bridge.svg?color=2ea44f&logo=pypi&logoColor=white)](https://pypistats.org/packages/mcp-notion-bridge)
+[![Total Downloads](https://static.pepy.tech/badge/mcp-notion-bridge)](https://pepy.tech/project/mcp-notion-bridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Shaheer%20Ul%20Hassan-8F63DD)](https://shaheerulhassan.com/)
 [![GitHub stars](https://img.shields.io/github/stars/samjanjua6/mcp-notion-bridge?style=social)](https://github.com/samjanjua6/mcp-notion-bridge)
